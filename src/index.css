@@ -1,6 +1,12 @@
 @import "tailwindcss";
 
-.active {
+a:active {
   color: blue;
-  border-bottom: 1px solid;
+  border-bottom: 2px solid;
+}
+*{
+  font-family: sans-serif;
+}
+button:hover{
+  cursor: pointer;
 }
